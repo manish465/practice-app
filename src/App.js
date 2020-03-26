@@ -7,12 +7,14 @@ import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
 import Layout from "./components/layout/Layout";
 import NavBar from "./components/NavBar";
+import Jumbotron from "./components/Jumbotron";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
     return (
         <React.Fragment>
             <NavBar />
+            <Jumbotron />
             <Layout>
                 <Router>
                     <Switch>
